@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale">
+    <title>Editorial Board MIT</title>
+    <link rel="stylesheet" href="STYLE.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index1.html"><img src="./LOGO.png"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="">HOME</a></li>
+                   <li><a href="">ABOUT</a></li>
+                   <li><a href="">NEWSLETTERS</a></li>
+                   <li><a href="">YEARBOOK</a></li>
+                   <li><a href="">CONTENT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+        
+<div class="text-box">
+    <h1>EDITORIAL BOARD</h1>
+    <p>As the editorial board, we form a vital part of the team responsible for shaping the content and direction of our publication. </p>
+    <a href="" class="hero-btn">Know More</a>
+</div>
+
+</section>
+<!----- Updates ------->
+    <section class="Updates">
+    <h1>Catch Up</h1>
+    <p>Our catch-up section serves as a dynamic platform within our website, designed to keep students abreast of the latest developments, trends, and noteworthy events across manipal.</p>
+        
+    <div class="row">
+        <div class="update-col">
+        <h3>Academic</h3>
+        <p>Engage your intellect and satisfy your curiosity with our Academic Updates section, your go-to source for news and developments in academia. From groundbreaking research findings to academic conferences and lectures, this section delivers valuable insights into the world of scholarship and learning. </p>
+        </div>
+        <div class="update-col">
+        <h3>Tech</h3>
+        <p>Stay ahead of the curve in the ever-evolving world of technology with our Tech Events Updates section. Here, we provide timely coverage of the latest industry conferences, summits, and expos, offering insights into groundbreaking innovations, emerging trends, and future directions in technology.</p>
+        </div>
+        <div class="update-col">
+        <h3>Other</h3>
+        <p>Discover the pulse of the world with our Other Updates section, where we curate a diverse array of news and happenings beyond the conventional headlines. From intriguing human interest stories to offbeat discoveries, this section offers a unique blend of content that reflects the richness and variety of our world</p>
+        </div>
+        </div>
+    </section>
+    <!-----Team------->
+    <section class="Team">
+    <h1>THE TEAM</h1>
+    <p>Meet the dedicated team behind our esteemed editorial board, a group of passionate individuals committed to upholding the highest standards of journalism and content curation</p>
+    <div class="row">
+        <div class="update-col">
+        <img src="./Team.png">
+        <div class="layer">
+        <h3>Editor-in-Chief</h3>
+        </div>
+        </div>
+        <div class="update-col">
+          <img src="group.png">
+          <div class="layer">
+              <h3>Rest of the team</h3>
+         </div>
+        </div>
+         <div class="update-col">
+          <img src="./Team.png">
+          <div class="layer">
+              <h3>Managing Director</h3>
+         </div>
+        </div>
+        </div>
+    </section>
+    
+<!-------Footer------->
+    <section class="Footer">
+    <h4>About Us</h4>
+    <p>Welcome to our publication's "About Us" page, where we invite you to learn more <br>about who we are, what we stand for, and our mission in the world of media and information dissemination.</p>
+    <div class="icons">
+         <i class="fa fa-facebook-official"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-times"></i>
+         <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Website by Ashutosh</p>
+    </section>
+    
+    
+    
+<!------JavaScript for Toggle Menu------>
+    
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+        {
+        navLinks.style.right = "0";
+        }
+    function hideMenu()
+        {
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>    
+</html>
